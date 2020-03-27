@@ -74,7 +74,7 @@ end
 
 def reduce_to_any_true(array)
   count = 0
-  
+  puts "test"
   while array[count] do
     if array[count]
       puts "should make it here"
