@@ -62,8 +62,8 @@ end
 def reduce_to_all_true(array)
   count = 0
   
-  while array[count] do
-    if !array[count] then
+  while count < array.length do
+    if array[count] == false then
       return false
     end
     count += 1
@@ -76,7 +76,7 @@ def reduce_to_any_true(array)
   count = 0
   
   puts "test"
-  while array[count] do
+  while count < array.length do
     if array[count] == true then
       return true
     end
