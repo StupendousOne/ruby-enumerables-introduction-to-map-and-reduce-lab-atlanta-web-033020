@@ -15,7 +15,7 @@ def map_to_no_change(array)
   new_array = []
   count = 0
   
-   while array[count] do
+  while array[count] do
     new_array << 
     count += 1
   end
